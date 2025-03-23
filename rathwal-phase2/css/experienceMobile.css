@@ -1,0 +1,282 @@
+body{
+    font-family: "Playfair Display", serif;
+    background-color:rgb(66, 141, 200);
+    color: white;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    background-color:midnightblue;
+    opacity: 0.8;
+    max-width: 768px;
+}
+
+#navImage{
+    width: 4vw;
+    height: 4vw;
+}
+
+
+.navLinksContainer{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 768px;
+    padding: 0.5rem;
+    gap: 1.9rem;
+}
+
+.navLinks{
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 4rem;
+    font-size: 0.8rem;
+    color: white;
+    background-color:midnightblue;
+    opacity: 0.9;
+    grid-area: footer;
+    max-width: 768px;
+    max-height: 2rem;
+}
+
+#header{
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Lobster Two", sans-serif;
+    text-decoration:wavy underline midnightblue 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    text-align: center;
+    padding: 1rem;
+}
+
+#innovateLogo{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.ypLogo{
+    width: 7.5rem;
+    height: 9rem;
+}
+
+#siemensLogo{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+#skylogo{
+    width: 7.5rem;
+    height: 4.5rem;
+}
+
+#jpLogo{
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.certificateSizes{
+    width: 19.6rem;
+    height: 14rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.companyContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.companyTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 20rem
+}
+
+.contentHeader{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration:dotted underline midnightblue 0.2rem;
+    font-family: "Lobster Two", sans-serif;
+    text-align: center;
+}
+
+.desc{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.containers{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: fit-content;
+    padding: 1rem;
+}
+
+.dates{
+    font-size: 1.25rem;
+    margin-right: 2rem;
+    text-align: right;
+}
+
+.articleContainer{
+    display: grid;
+    max-width: 768px;
+    grid-template-areas: 
+    'date1 experience1'
+    'date2 experience2'
+    'date3 experience3'
+    'date4 experience4'
+    'date5 experience5'
+    'date6 experience6';
+    padding: 1rem;
+    gap: 2.5rem;
+    
+}
+
+#experience1{
+    max-width: 35rem;
+    grid-area: experience1;
+    background-color:rgb(89, 182, 215);
+}
+
+#date1{
+    grid-area: date1;
+    font-size: 1.25rem;
+    text-align: right;
+}
+
+#experience2{
+    max-width: 35rem;
+    grid-area: experience2;
+    background-color:rgb(89, 182, 215);
+}
+
+#date2{
+    grid-area: date2;
+}
+
+#experience3{
+    max-width: 35rem;
+    grid-area: experience3;
+    background-color:rgb(89, 182, 215);
+}
+
+#date3{
+    grid-area: date3;
+}
+
+#experience4{
+    max-width: 35rem;
+    grid-area: experience4;
+    background-color:rgb(89, 182, 215);
+}
+
+#date4{
+    grid-area: date4;
+}
+
+#experience5{
+    max-width: 35rem;
+    grid-area: experience5;
+    background-color:rgb(89, 182, 215);
+}
+
+#date5{
+    grid-area: date5;
+}
+
+#experience6{
+    max-width: 35rem;
+    grid-area: experience6;
+    background-color:rgb(89, 182, 215);
+}
+
+#date6{
+    grid-area: date6;
+}
+
+#blackLine {
+    display: none;
+    position: absolute;
+    top: 5rem; 
+    width: 0.5rem;
+    height: 208rem;
+    background-color:white;
+    top: 9.5rem;
+    left: 2%;
+}
+
+#dot1{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 1.25%;
+}
+
+#dot2{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 31rem;
+    left: 1.25%;
+}
+
+#dot3{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 72rem;
+    left: 1.25%;
+}
+
+#dot4{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 113rem;
+    left: 1.25%;
+}
+
+
+#dot5{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 162rem;
+    left: 1.25%;
+}
+
+#dot6{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 203rem;
+    left: 1.25%;
+}
+
+
+

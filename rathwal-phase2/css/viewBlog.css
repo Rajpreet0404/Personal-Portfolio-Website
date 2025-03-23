@@ -1,0 +1,169 @@
+body{
+    font-family: "Playfair Display", serif;
+    background-color:rgb(66, 141, 200);
+    color: white;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    background-color:midnightblue;
+    opacity: 0.8;
+    max-width: 100vw;
+}
+
+#navImage{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+
+.navLinksContainer{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    padding: 0.5rem;
+    gap: 6.5rem;
+}
+
+.navLinks{
+    display: inline-block;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    font-size: 1.15vw;
+    color: white;
+    background-color:midnightblue;
+    opacity: 0.9;
+    max-width: 100vw;
+    margin-top: 1rem;
+}
+
+#header{
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Lobster Two", sans-serif;
+    text-decoration:wavy underline midnightblue 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    text-align: center;
+    padding: 1rem;
+}
+
+aside a{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: right;
+}
+
+aside{
+    padding: 1rem;
+}
+
+.blogEntries{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2.5rem;
+    border: 5px solid white;
+    max-width: 100vw;
+
+}
+
+.date{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: midnightblue;
+    text-align: right;
+
+}
+
+.blogTitle{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.blogContent{
+    font-size: 1.5rem;
+    border-bottom: 5px solid white;
+}
+
+.pageContainer{
+    display: grid;
+    max-width: 100vw;
+    min-height: 100vh;
+    grid-template-areas: 
+    'headerSection headerSection'
+    'pageTitle pageTitle'
+    'archive asideLinks'
+    'blogs blogs'
+    'footerSection footerSection';
+    gap: 1rem;
+    
+}
+
+#heading{
+    grid-area: headerSection;
+}
+
+#pageTitle{
+    grid-area: pageTitle;
+}
+
+#blogs{
+    grid-area: blogs;
+}
+
+#asideLinks{
+    grid-area: asideLinks;
+    width: fit-content;
+    padding: 1rem;
+    margin-left: 37rem;
+}
+
+#footerSection{
+    grid-area: footerSection;
+}
+#archive{
+    grid-area: archive;
+    padding: 1rem;
+    width: fit-content;
+
+}
+
+#submitButton{
+    background-color: midnightblue;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.25rem;
+    border: 2px solid white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    margin-left: 0.5rem;
+}
+
+#monthSelect{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    padding: 0.25rem;
+    border: 2px solid white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+#selectMonthLabel{
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+}

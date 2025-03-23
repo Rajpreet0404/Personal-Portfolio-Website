@@ -1,0 +1,196 @@
+body{
+    font-family: "Playfair Display", serif;
+    background-color:rgb(66, 141, 200);
+    color: white;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    background-color:midnightblue;
+    opacity: 0.8;
+    max-width: 768px;
+}
+
+#navImage{
+    width: 4vw;
+    height: 4vw;
+}
+
+
+.navLinksContainer{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 768px;
+    padding: 0.5rem;
+    gap: 1.9rem;
+}
+
+.navLinks{
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 4rem;
+    font-size: 0.8rem;
+    color: white;
+    background-color:midnightblue;
+    opacity: 0.9;
+    grid-area: footer;
+    max-width: 768px;
+    max-height: 2rem;
+}
+
+#header{
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Lobster Two", sans-serif;
+    text-decoration:wavy underline midnightblue 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.educationContainers{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    width: fit-content;
+}
+
+.gcseContainers{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    margin-left: 5rem;
+    background-color:rgb(89, 182, 215);
+
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contentHeader{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration:dotted underline midnightblue 0.2rem;
+    font-family: "Lobster Two", sans-serif;
+    text-align: center;
+}
+
+.qualification{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+#qmulImage{
+    width: 8rem;
+    height: 8rem;
+}
+
+.ophsImage{
+    width: 8rem;
+    height: 8rem;
+}
+
+.articleContainer{
+    display: grid;
+    max-width: 768px;
+    grid-template-areas: 
+    'degree degreedate'
+    'alevelDate alevel'
+    'gcse gcseDate';
+    padding: 1rem;
+    gap: 1rem;
+    
+}
+
+#degreeSection{
+    grid-area: degree;
+    background-color:rgb(89, 182, 215);
+    width: fit-content;
+
+}
+
+#alevelSection{
+    grid-area: alevel;
+    width: fit-content;
+    background-color:rgb(89, 182, 215);
+
+}
+
+#gcseSection{
+    grid-area: gcse;
+    width: 20rem;
+
+}
+
+
+#blackLine {
+    display: none;
+    position: absolute;
+    top: 5rem; 
+    width: 0.5rem;
+    height: 48rem;
+    background-color:white;
+    top: 9.5rem;
+    left: 50%;
+}
+
+.degreeDate{
+    grid-area: degreedate;
+    font-size: 1.25rem;
+}
+.alevelDate{
+    grid-area: alevelDate;
+    font-size: 1.25rem;
+    margin-left: 50%;
+}
+
+.gcseDate{
+    grid-area: gcseDate;
+    font-size: 1.25rem;
+    margin-left: 30%;
+}
+
+#dot1{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 9.5rem;
+    left: 49.25%;
+}
+
+#dot2{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 21rem;
+    left: 49.25%;
+}
+
+#dot3{
+    display: none;
+    width: 1.75rem;
+    height: 1.75rem;
+    position: absolute;
+    top: 35rem;
+    left: 49.25%;
+}

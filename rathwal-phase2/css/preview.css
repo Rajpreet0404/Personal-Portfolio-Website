@@ -1,0 +1,70 @@
+body{
+    font-family: "Playfair Display", serif;
+    background-color:rgb(66, 141, 200);
+    color: white;
+}
+
+
+.blogEntries{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2.5rem;
+    border: 5px solid white;
+    max-width: 100vw;
+
+}
+
+.date{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: midnightblue;
+    text-align: right;
+
+}
+
+.blogTitle{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.blogContent{
+    font-size: 1.5rem;
+    border-bottom: 5px solid white;
+}
+
+#editButton{
+    width: 15rem;
+    height: fit-content;
+    background-color: midnightblue;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    padding: 1rem;
+}
+
+#postButton{
+    width: 15rem;
+    height: fit-content;
+    background-color: midnightblue;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    padding: 1rem;
+}
+
+.flexContainer{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+}

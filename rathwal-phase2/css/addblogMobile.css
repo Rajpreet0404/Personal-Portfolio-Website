@@ -1,0 +1,187 @@
+body{
+    font-family: "Playfair Display", serif;
+    background-color:rgb(66, 141, 200);
+    color: white;
+}
+
+aside a{
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+aside{
+
+    padding: 1rem;
+}
+
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    background-color:midnightblue;
+    opacity: 0.8;
+    max-width: 768px;
+}
+
+#navImage{
+    width: 4vw;
+    height: 4vw;
+}
+
+
+.navLinksContainer{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 768px;
+    padding: 0.5rem;
+    gap: 1.9rem;
+}
+
+.navLinks{
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 8rem;
+    font-size: 0.8rem;
+    color: white;
+    background-color:midnightblue;
+    opacity: 0.9;
+    grid-area: footer;
+    max-width: 768px;
+    max-height: 2rem;
+}
+
+#header{
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Lobster Two", sans-serif;
+    text-decoration:wavy underline midnightblue 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    text-align: center;
+    padding: 1rem;
+}
+
+.blogContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 42rem;
+    padding: 2rem;
+    background-color:rgb(89, 182, 215);
+    border-radius: 0.5rem;
+    border: none;
+    margin: auto; /* Added to center horizontally */
+    justify-content: center; /* Added to center horizontally */
+    align-items: center; /* Added to center vertically */
+}
+
+#content{
+    margin-top: 2rem;
+    width: 35rem;
+    max-width: 35rem;
+    height: 10em;
+    font-size: 1.5vw;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#title{
+    width: 35rem;
+    height: 2rem;
+    font-size: 1.5vw;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#postButton{
+    width: 15rem;
+    height: fit-content;
+    background-color: midnightblue;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    
+}
+
+#clearButton{
+    width: 15rem;
+    height: fit-content;
+    background-color: midnightblue;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    padding: 1rem;
+    margin-top: 2.5rem;
+    margin-left: 6rem;
+    
+}
+
+.pageContainer{
+    display: grid;
+    max-width: 768px;
+    max-height: 100vh;
+    height: 100vh;
+    grid-template-areas: 
+    'headerSection headerSection headerSection'
+    'previewSection .. logoutSection'
+    'loginSection loginSection loginSection'
+    'footerSection footerSection footerSection';
+    gap: 2rem;
+    
+}
+
+#logoutSection{
+    grid-area: logoutSection;
+}
+
+
+#headerSection{
+    grid-area: headerSection;
+}
+
+#loginSection{
+    grid-area: loginSection;
+}
+
+#footerSection{
+    grid-area: footerSection;
+}
+
+#previewSection{
+    grid-area: previewSection;
+}
+
+#previewButton{
+    width: 15rem;
+    height: fit-content;
+    background-color: midnightblue;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    padding: 1rem;
+}

@@ -1,0 +1,126 @@
+body{
+    font-family: "Playfair Display", serif;
+    background-color:rgb(66, 141, 200);
+    color: white;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    background-color:midnightblue;
+    opacity: 0.8;
+    max-width: 768px;
+}
+
+#navImage{
+    width: 4vw;
+    height: 4vw;
+}
+
+
+.navLinksContainer{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 768px;
+    padding: 0.5rem;
+    gap: 1.9rem;
+}
+
+.navLinks{
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 4rem;
+    font-size: 0.8rem;
+    color: white;
+    background-color:midnightblue;
+    opacity: 0.9;
+    grid-area: footer;
+    max-width: 768px;
+    max-height: 2rem;
+}
+
+#pic{
+    width: 16rem;
+    height: 28.8rem;
+}
+
+.articleContainer{
+    display: flex;
+    flex-direction: row;
+    max-width: 768px;
+    height: auto;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#content{
+    width: auto;
+}
+
+#profileImageSection{
+    width: auto;
+    height: auto;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.15rem;
+    width: 20rem;
+}
+
+#header{
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Lobster Two", sans-serif;
+    text-decoration:wavy underline midnightblue 0.2rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    text-align: center;
+    padding: 1rem;
+}
+
+#contentHeader{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration:dotted underline midnightblue 0.2rem;
+    font-family: "Lobster Two", sans-serif;
+}
+
+.bodyContainer{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'article'
+    '..'
+    '..'
+    'footer';
+    gap: 1rem;
+    min-height: 100vh;
+    max-width: 768px;
+}
+
+#headerSection{
+    grid-area: header;
+}
+
+#articleSection{
+    grid-area: article;
+}
+
+#footerSection{
+    grid-area: footer;
+    
+}
+
+
